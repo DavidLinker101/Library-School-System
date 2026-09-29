@@ -1,0 +1,30 @@
+# Ignore common generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency folders (if used later)
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+
+# OS metadata
+._*
+
+# Zip archives (keep extracted files only)
+*.zip
