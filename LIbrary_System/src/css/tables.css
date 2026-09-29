@@ -1,0 +1,8 @@
+.table-scroll{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.logs{width:100%;border-collapse:collapse;font-size:clamp(14px,0.8vw + 10px,20px);min-width:560px}
+table.logs th{text-align:left;color:#666;font-weight:600;padding:clamp(10px,1vw + 6px,20px) 10px;border-bottom:1px solid #555;white-space:nowrap}
+table.logs td{padding:clamp(12px,1vw + 8px,24px) 10px;border-bottom:1px solid #444;vertical-align:top;overflow-wrap:anywhere}
+.badge{display:inline-block;min-width:110px;text-align:center;border-radius:20px;padding:6px 14px;font-size:clamp(12px,0.6vw + 9px,17px);font-weight:700;white-space:nowrap}
+.badge.borrowed{background:var(--badge-b);color:var(--navy)}
+.badge.returned{background:#d9d9d9;color:#111;border:1px solid #555}
+@media(max-width:560px){table.logs{min-width:520px}.badge{min-width:96px}}
