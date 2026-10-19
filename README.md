@@ -12,31 +12,7 @@ A web-based library management system for schools. This application provides fun
 
 ## Project Structure
 
-```
-Library-School-System/
-├── src/
-│   ├── pages/          # Page components
-│   │   ├── home.js
-│   │   ├── admin.js
-│   │   ├── feedback.js
-│   │   └── logs.js
-│   ├── js/             # JavaScript logic
-│   │   ├── app.js      # Main application file
-│   │   ├── router.js   # Page routing
-│   │   └── store.js    # State management
-│   ├── css/            # Stylesheets
-│   │   ├── base.css
-│   │   ├── forms.css
-│   │   ├── header.css
-│   │   └── tables.css
-│   ├── assets/         # Images and resources
-│   │   └── logo.png
-│   └── README.md       # Source documentation
-├── index.html          # Entry point
-├── main.pjs            # Main process file
-└── README.md           # This file
 
-```
 
 ## Getting Started
 
